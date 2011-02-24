@@ -1,0 +1,129 @@
+<!doctype html>  
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>jQuery Harmony</title>
+
+  <meta name="description" content="jQuery plugins to help integrate Harmony as some sexy background canvas">
+  <meta name="author" content="Mickael Daniel">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <link rel="stylesheet" href="css/960.css?v=1">
+
+  <script src="js/modernizr-1.6.min.js?v=1"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+        <h1 class="mk-helper-text-right"><a href="./">jQuery <span>Harmony</span></a></h1>
+    </header>
+    
+    <div id="main">
+
+        <div class="demo container_12">
+
+            <div class="grid_12 box" data-color="222, 125, 200">
+                rgb(212, 125, 200) || ribbon (Default brush)
+            </div>
+            <!-- end .grid_12 -->
+            <div class="clear"></div>
+            <div class="grid_6  box" data-color="50, 50, 50" data-brush="chrome">
+                rgb(50, 50, 50) || chrome
+            </div>
+            <!-- end .grid_1 -->
+            <div class="grid_6 box" data-color="#008500"  data-brush="fur">
+                #008500 || fur
+            </div>
+            <!-- end .grid_11 -->
+            <div class="clear"></div>
+            <div class="grid_2 box" data-color="#85004B"  data-brush="circles">
+                #85004B || circles
+            </div>
+            <!-- end .grid_2 -->
+            <div class="grid_10 box" data-color="#474230" data-brush="grid">
+                #4 || grid
+            </div>
+            <!-- end .grid_10 -->
+            <div class="clear"></div>
+            <div class="grid_3 box" data-color="#3D3B49" data-brush="longfur">
+                #3D3B49 || longfur
+            </div>
+            <!-- end .grid_3 -->
+            <div class="grid_9 box" data-color="#2B2935" data-brush="shaded">
+                #2B2935 || shaded
+            </div>
+            <!-- end .grid_9 -->
+            <div class="clear"></div>
+            <div class="grid_4 box" data-color="#5E5A49" data-brush="simple">
+                #5E5A49 || simple
+            </div>
+            <!-- end .grid_4 -->
+            <div class="grid_8 box" data-color="#6BAC42" data-brush="sketchy">
+            	#6BAC42 || sketchy
+            </div>
+            <!-- end .grid_8 -->
+            <div class="clear"></div>
+            <div class="grid_5 box" data-color="#5E5A49" data-brush="squares">
+            	#FFFFFF || squares
+            </div>
+            <!-- end .grid_5 -->
+            <div class="grid_7 box" data-color="#FF5E99" data-brush="web">
+            	#FFF || web
+            </div>
+            <!-- end .grid_7 -->
+            <div class="clear"></div>
+            
+            <div class="grid_6 box" data-color="#FF5E99">
+            	#FF5E99 Cause hot pink is hot!
+            </div>
+            <!-- end .grid_6 -->
+            <div class="grid_6 box" data-color="#BADA55">
+            	#BADA55 <3
+            </div>
+        </div>
+      </div>
+    <div class="clear"></div>
+    <footer>
+        <p><a href="http://github.com/mklabs/jquery-harmony">jQuery Harmony</a> || Based on <a href="http://mrdoob.com/projects/harmony/">Harmony</a> & <a href="https://github.com/paulirish/harmony">Harmony Background edition!</a></p>
+    </footer>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.4.2.min.js"%3E%3C/script%3E'))</script>
+  
+  <script src="./jquery-harmony.js?v=1"></script>
+  
+  <script>
+  $(function(){
+	  $("header").harmony({
+		  color: [255, 255, 255]
+	  });
+	  
+	  $("#main .box").harmony();
+  });
+  </script>
+
+  <!--[if lt IE 7 ]>
+    <script src="js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+
+  <!-- yui profiler and profileviewer - remove for production -->
+  <script src="js/profiling/yahoo-profiling.min.js"></script>
+  <script src="js/profiling/config.js?v=1"></script>
+  <!-- end profiling code -->
+
+</body>
+</html>
