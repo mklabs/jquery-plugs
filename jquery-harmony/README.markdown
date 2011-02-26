@@ -5,8 +5,9 @@ jQuery harmony lets you simply add some harmony magic in your website!
 Nothing fancy there, all the magic is done in harmony itself and Paul's Irish Harmony Backgroud edition. 
 Really, I'm just a guy who put those awesomeness in a single file and wrapped it all in a jQuery plugin. 
 
-
 Very, very, very, very first work.
+
+Demo: [Demo](http//mklabs.github.com/jquery-plugs/jquery-harmony/)
 
 ## Basic setup:
 
