@@ -7,7 +7,7 @@ Really, I'm just a guy who put those awesomeness in a single file and wrapped it
 
 Very, very, very, very first work.
 
-Demo: [Demo](http//mklabs.github.com/jquery-plugs/jquery-harmony/)
+Demo: [http//mklabs.github.com/jquery-plugs/jquery-harmony/](http://mklabs.github.com/jquery-plugs/jquery-harmony)
 
 ## Basic setup:
 
